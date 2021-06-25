@@ -46,7 +46,7 @@
     "prepublishOnly": "(test $RUNNING_FROM_SCRIPT || (echo \"You must use publish.sh instead of 'npm publish' directly!\"; exit 1)) && npm test && npm run lint"
   },
   "dependencies": {
-    "archiver": "^3.1.1",
+    "archiver": "^5.3.0",
     "lodash": "^4.17.15",
     "xml-escape": "^1.1.0"
   },
